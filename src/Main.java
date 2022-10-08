@@ -49,5 +49,26 @@ public class Main {
         for (int i = 1; i < 515; i = i * 2){
             System.out.println(i);
         }
+
+        // Задание 3, Задача 1.
+        System.out.println("Задание 3, Задача 1.");
+
+        int income = 29000;
+        int total = 0;
+        for (int i = 0; i < 12; i++){
+            total = total + income;
+            System.out.println("Мусяц " + i + ", сумма накоплений равна " + total + " рублей.");
+        }
+
+        // Задание 3, Задача 2.
+        System.out.println("Задание 3, Задача 2.");
+
+        int contribution = 29000;
+        int together = 0;
+        for (int i = 0; i < 12; i++){
+            together = together + together / 100;
+            together = together + contribution;
+            System.out.println("Мусяц " + i + ", сумма накоплений равна " + together + " рублей.");
+        }
     }
 }
